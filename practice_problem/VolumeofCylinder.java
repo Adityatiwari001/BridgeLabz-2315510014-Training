@@ -1,0 +1,18 @@
+package FullStack;
+import java.util.*;
+
+
+public class VolumeofCylinder {
+
+	public static void main(String[] args) {
+		  Scanner sc = new Scanner(System.in);
+		  System.out.println("Enter Radius of circle");
+		  double R = sc.nextDouble();
+		  System.out.println("Enter Radius of Height");
+		  double H = sc.nextDouble();
+		  double Cylender = 1.44* Math.pow(R, 2)*H;
+		  System.out.println("Volume of cylender"+ Cylender);
+
+	}
+
+}
